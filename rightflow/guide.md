@@ -1,6 +1,6 @@
 # 轻右键 / RightFlow 使用指南
 
-更新日期：2026 年 10 月 14 日。适用 macOS 14 及以上；界面和功能以你安装的版本为准。7zz 本地解压正在接入，本指南中的解压说明仅适用于已经提供该功能的版本。
+更新日期：2026 年 10 月 14 日。适用 macOS 14 及以上；界面和功能以你安装的版本为准。当前开发构建已接入 7zz 本地解压；本指南中的解压说明仅适用于已经提供该功能的版本，不代表 App Store 版本已经发布。
 
 ## 1. 启用 Finder 扩展
 
@@ -55,18 +55,18 @@ Pro 用户可主动开启该组。选中文件后使用「剪切」记录待移�
 
 ## 4. Pro 本地解压
 
-解压正在接入；只有安装版本实际提供该动作时才能使用。
+当前开发构建已接入解压；只有安装版本实际提供该动作时才能使用。
 
 1. 在文件工具设置中启用 Pro「解压」。
 2. 在 Finder 选中一个支持的压缩包。
 3. 点「解压到同名文件夹」。应用在本机使用 7zz 处理，不上传压缩内容。
 4. 查看生成目录或错误提示；重要资料先备份，不连续重复点击未完成的操作。
 
-当前接入的常见格式包括 ZIP、7z、RAR、TAR、GZip、BZip2、XZ 及对应的 TAR 复合后缀。分卷、加密压缩包及其他特殊格式不在本文的可用性承诺内；具体限制以该版本界面和错误提示为准。
+当前开发构建支持的常见格式包括 ZIP、7z、RAR、TAR、GZip、BZip2、XZ 及对应的 TAR 复合后缀。分卷、加密压缩包及其他特殊格式不在本文的可用性承诺内；具体限制以该版本界面和错误提示为准。
 
-该链路复用维护者自己的 [EasyArchiver（原 EasyZip）工程](https://github.com/danweiyuancircle/easy-zip) 中的 7zz 本地处理方案，不是来自同名竞品。引擎版本为 7-Zip 25.01，相关许可与源码见 [隐私政策的第三方开源组件附录](privacy.md#附录第三方开源组件)。
+该链路复用维护者自己的 [EasyArchiver（原 EasyZip）工程](https://github.com/danweiyuancircle/easy-zip) 中的 7zz 本地处理方案，不是来自同名竞品。引擎版本为 7-Zip 25.01，相关许可与源码见 [隐私政策的第三方开源组件附录](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.md#附录第三方开源组件)。
 
-当前接入限制：源压缩包不超过 2 GiB、清单中的累计未压缩大小不超过 10 GiB、条目数不超过 100000。这些是当前实现的保护边界，仍需对应版本测试；不代表所有格式、异常路径或真实 Finder 操作已经完成验收。
+当前保护边界：源压缩包不超过 2 GiB、清单中的累计未压缩大小不超过 10 GiB、条目数不超过 100000。开发验证已包含真实压缩包测试、AES ZIP 定向测试和实际 Finder ZIP 操作，测试环境为 arm64 Mac；这些证据不代表全部格式、异常路径或其他硬件已经完成验收，也不代表 App Store 版本已经发布。
 
 ## 5. 购买与恢复
 
@@ -85,6 +85,6 @@ Pro 用户可主动开启该组。选中文件后使用「剪切」记录待移�
 | 文件操作失败 | 检查源文件、目标目录、空间和权限；先确认文件现状，再决定是否重试 |
 | 需要排查日志 | 本机日志可能包含个人路径；先脱敏，再主动提交需要的片段 |
 
-支持入口：[GitHub Issue](https://github.com/danweiyuancircle/rightflow-docs/issues)。提供版本、复现步骤和已脱敏截图即可，不要公开个人文件、密钥或支付资料。
+支持入口：[GitHub Issue](https://github.com/danweiyuancircle/docs/issues)。提供版本、复现步骤和已脱敏截图即可，不要公开个人文件、密钥或支付资料。
 
-相关文档：[隐私政策](privacy.md)、[用户使用协议](terms.md)。
+相关文档：[隐私政策](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.md)、[用户使用协议](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.md)。

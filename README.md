@@ -1,14 +1,21 @@
-# 轻右键 / RightFlow 文档
+# 产品文档
 
-轻右键是一款 macOS Finder 右键效率工具。配置、目录授权和文件操作在本机完成；此仓库只发布用户文档，不托管应用源码或用户文件。
+本仓库公开产品的隐私政策、用户使用协议与使用指南，按产品目录分类。仅托管文档，不存放应用源码、用户文件或支付资料，无需开发者自建文档服务器。
 
-- [隐私政策](privacy.md)
-- [用户使用协议](terms.md)
-- [使用指南](guide.md)
-- [反馈与支持](https://github.com/danweiyuancircle/rightflow-docs/issues)
+## 轻右键 / RightFlow
 
-更新日期：2026 年 10 月 14 日。
+轻右键是一款 macOS Finder 右键效率工具，配置、目录授权与文件操作在本机完成。
 
-文档描述当前实现与正在接入的能力。7zz 本地解压属于正在接入的 Pro 能力，是否可用以你安装的版本及界面为准；仓库文档发布不代表应用已上架、已发布或所有功能完成验收。购买价格、权益与可用性以应用实际购买界面和 App Store 为准。
+| 文档 | 地址 |
+| --- | --- |
+| 隐私政策 | [rightflow/privacy.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.md) |
+| 用户使用协议 | [rightflow/terms.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.md) |
+| 使用指南 | [rightflow/guide.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.md) |
 
-公开 Issue 中不要上传未脱敏的日志、个人文件、完整个人路径、支付凭证或账号信息。此仓库由 GitHub 托管，无需开发者自建文档服务器。
+更新日期：2026 年 10 月 14 日。文档区分开发构建验证与 App Store 发布；购买价格、权益及可用性以安装版本的实际界面和 App Store 为准。
+
+## 反馈与支持
+
+通过 [GitHub Issue](https://github.com/danweiyuancircle/docs/issues) 反馈，并在标题中注明产品名。公开反馈不要上传未脱敏日志、个人文件、完整个人路径、密钥、支付凭证或账号信息。
+
+文档由 GitHub 托管，访问及提交反馈适用 [GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)。
