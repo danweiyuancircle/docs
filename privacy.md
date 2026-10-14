@@ -52,3 +52,19 @@ Pro 本地解压正在接入。提供该功能的版本会使用本机 7zz 引�
 功能或数据处理方式发生实质变化时，我们会更新本政策和更新日期；需要额外授权的操作遵循系统授权流程。此政策不减少适用法律赋予你的隐私权利。
 
 支持入口：[轻右键文档仓库 Issue](https://github.com/danweiyuancircle/rightflow-docs/issues)。仓库未提供私人联系方式，不要在公开反馈中填写个人电话或住址。
+
+## 附录：第三方开源组件
+
+解压能力使用 **7-Zip 25.01** 的 `7zz` 独立子进程，所用引擎未修改；运行在本机，不提供压缩包上传服务。本附录说明组件许可，不改变上文的数据处理方式，也不表示正在接入的能力已经发布。
+
+| 项目 | 声明 |
+| --- | --- |
+| 组件与版本 | 7-Zip / 7zz 25.01 |
+| 集成方式 | 未修改的独立命令行进程，不把其代码链接到应用中 |
+| 许可 | 主要代码为 LGPL-2.1-or-later；部分代码为 BSD-2-Clause、BSD-3-Clause，并包含 unRAR 使用限制，具体文件以官方许可和源码为准 |
+| 版权归属 | 7-Zip：Igor Pavlov，1999–2025；LZFSE 相关代码：Apple Inc.，2015–2016；ZSTD 相关代码：Facebook, Inc. 与 Igor Pavlov，后者年份 2023–2025；XXH64 相关代码：Yann Collet，2012–2021，以及 Igor Pavlov，2023–2025；原始 unRAR 代码版权归 Alexander Roshal |
+| 官方许可说明及 BSD / unRAR 条款 | https://www.7-zip.org/license.txt |
+| LGPL 2.1 许可全文 | https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html |
+| 本版本对应源码 | https://www.7-zip.org/a/7z2501-src.tar.xz |
+
+unRAR 代码不得用于重新实现专有的 RAR 压缩算法；轻右键只接入解压，不实现 RAR 压缩。组件原有许可证和声明继续适用，轻右键的用户协议不限制你根据这些许可证使用对应组件和源码的权利。应用分发材料还应保留组件许可与版权声明，本页面链接不能替代分发时应履行的义务。
