@@ -10,8 +10,8 @@ The privacy policies and ADB connection guides are organized by language. The pr
 | 连接指南 / Connection Guide | [guide.zh.md](guide.zh.md) | [guide.en.md](guide.en.md) |
 | 用户协议入口 / EULA reference | [terms.md](terms.md) | [terms.md](terms.md#english) |
 
-本目录只托管文档，不发布应用版本，不改变应用购买权益或现有用户合同。原站点文档继续保留，兼容已安装版本的旧链接。
+本目录是 ADBox 文档的维护位置，不发布应用版本，不改变应用购买权益或现有用户合同。unitcircle 站点不再更新。操作演示在连接指南页顶，经 Bilibili / YouTube 观看。已安装的旧版本若仍打开旧站链接，那些页面不会再改。
 
-This directory hosts documentation only. It does not publish an app version or change purchase entitlements or the existing app agreement. The original website documents remain available for older installed app versions.
+This directory is where ADBox documentation is maintained. It does not publish an app version or change purchase entitlements or the existing app agreement. The unitcircle website is no longer updated. Operation demos are at the top of the connection guides and play on Bilibili or YouTube. Older app builds that still open the previous site links will not receive further edits there.
 
 浏览 GitHub 文档适用 [GitHub 隐私声明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)。
