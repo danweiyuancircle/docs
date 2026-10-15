@@ -1,0 +1,29 @@
+# GitHub Pages 内置 Jekyll。只开 Pages 白名单插件，不另接构建机。
+# 手机从 App 打开的是渲染后的阅读页，不是仓库文件树。
+title: Docs
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+optional_front_matter:
+  enabled: true
+relative_links:
+  enabled: true
+  collections: false
+readme_index:
+  enabled: true
+  remove_originals: false
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false

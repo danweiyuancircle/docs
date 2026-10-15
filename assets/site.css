@@ -1,0 +1,107 @@
+/* 手机阅读页。暖白底、系统字体，正文限制行宽，不出现仓库导航。 */
+:root {
+  color-scheme: light dark;
+  --bg: #f4f2ef;
+  --fg: #0c0c0c;
+  --muted: #5c5c5c;
+  --line: #d4d0ca;
+  --link: #9a3412;
+  --code-bg: #ebe7e1;
+  --max: 40rem;
+  --font: "PingFang SC", "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #080808;
+    --fg: #f2f2f2;
+    --muted: #a3a3a3;
+    --line: #2a2a2a;
+    --link: #ffb088;
+    --code-bg: #1c1c1c;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+article {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding:
+    max(28px, env(safe-area-inset-top))
+    max(20px, env(safe-area-inset-right))
+    max(48px, env(safe-area-inset-bottom))
+    max(20px, env(safe-area-inset-left));
+}
+
+h1 {
+  margin: 0 0 0.8em;
+  font-size: 1.7rem;
+  line-height: 1.25;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  margin: 1.6em 0 0.5em;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+h3 {
+  margin: 1.3em 0 0.4em;
+  font-size: 1.05rem;
+}
+
+p, ul, ol { margin: 0.7em 0; }
+
+a { color: var(--link); }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.8em 0;
+  border-radius: 10px;
+}
+
+code {
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: var(--code-bg);
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.9em;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+pre code { padding: 0; background: transparent; }
+
+table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th, td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+th { color: var(--muted); font-weight: 600; }

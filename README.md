@@ -8,11 +8,11 @@
 
 | 文档 / Document | 中文 | English |
 | --- | --- | --- |
-| 隐私政策 / Privacy Policy | [rightflow/privacy.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.zh.md) | [rightflow/privacy.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.en.md) |
-| 用户使用协议 / User Agreement | [rightflow/terms.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.zh.md) | [rightflow/terms.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.en.md) |
-| 使用指南 / User Guide | [rightflow/guide.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.zh.md) | [rightflow/guide.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.en.md) |
+| 隐私政策 / Privacy Policy | [rightflow/privacy.zh.md](rightflow/privacy.zh.md) | [rightflow/privacy.en.md](rightflow/privacy.en.md) |
+| 用户使用协议 / User Agreement | [rightflow/terms.zh.md](rightflow/terms.zh.md) | [rightflow/terms.en.md](rightflow/terms.en.md) |
+| 使用指南 / User Guide | [rightflow/guide.zh.md](rightflow/guide.zh.md) | [rightflow/guide.en.md](rightflow/guide.en.md) |
 
-[RightFlow 文档目录 / Documentation index](https://github.com/danweiyuancircle/docs/blob/main/rightflow/README.md)。
+[RightFlow 文档目录 / Documentation index](rightflow/README.md)。
 
 更新日期：2026 年 10 月 14 日。文档区分开发构建验证与 App Store 发布；购买价格、权益及可用性以安装版本的实际界面和 App Store 为准。
 
@@ -20,11 +20,11 @@
 
 | 文档 | 中文 | English |
 | --- | --- | --- |
-| 隐私政策 | [adbox/privacy.zh.md](https://github.com/danweiyuancircle/docs/blob/main/adbox/privacy.zh.md) | [adbox/privacy.en.md](https://github.com/danweiyuancircle/docs/blob/main/adbox/privacy.en.md) |
-| ADB 连接指南 | [adbox/guide.zh.md](https://github.com/danweiyuancircle/docs/blob/main/adbox/guide.zh.md) | [adbox/guide.en.md](https://github.com/danweiyuancircle/docs/blob/main/adbox/guide.en.md) |
-| 用户协议入口 | [adbox/terms.md](https://github.com/danweiyuancircle/docs/blob/main/adbox/terms.md) | [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) |
+| 隐私政策 | [adbox/privacy.zh.md](adbox/privacy.zh.md) | [adbox/privacy.en.md](adbox/privacy.en.md) |
+| ADB 连接指南 | [adbox/guide.zh.md](adbox/guide.zh.md) | [adbox/guide.en.md](adbox/guide.en.md) |
+| 用户协议入口 | [adbox/terms.md](adbox/terms.md) | [Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) |
 
-[ADBox 文档目录](https://github.com/danweiyuancircle/docs/blob/main/adbox/README.md)。旧站点文档保留，兼容已安装版本。
+[ADBox 文档目录](adbox/README.md)。阅读页由 GitHub Pages 发布。unitcircle 站点不再更新。
 
 ## 反馈与支持
 
