@@ -6,11 +6,13 @@
 
 轻右键是一款 macOS Finder 右键效率工具，配置、目录授权与文件操作在本机完成。
 
-| 文档 | 地址 |
-| --- | --- |
-| 隐私政策 | [rightflow/privacy.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.md) |
-| 用户使用协议 | [rightflow/terms.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.md) |
-| 使用指南 | [rightflow/guide.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.md) |
+| 文档 / Document | 中文 | English |
+| --- | --- | --- |
+| 隐私政策 / Privacy Policy | [rightflow/privacy.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.zh.md) | [rightflow/privacy.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.en.md) |
+| 用户使用协议 / User Agreement | [rightflow/terms.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.zh.md) | [rightflow/terms.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.en.md) |
+| 使用指南 / User Guide | [rightflow/guide.zh.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.zh.md) | [rightflow/guide.en.md](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.en.md) |
+
+[RightFlow 文档目录 / Documentation index](https://github.com/danweiyuancircle/docs/blob/main/rightflow/README.md)。
 
 更新日期：2026 年 10 月 14 日。文档区分开发构建验证与 App Store 发布；购买价格、权益及可用性以安装版本的实际界面和 App Store 为准。
 
