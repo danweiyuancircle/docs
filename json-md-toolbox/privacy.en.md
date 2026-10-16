@@ -1,3 +1,7 @@
+---
+title: JSON & Markdown Toolbox Privacy Policy
+---
+
 # JSON & Markdown Toolbox Privacy Policy
 
 Last updated: 2026-10-16

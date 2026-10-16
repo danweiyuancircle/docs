@@ -1,3 +1,7 @@
+---
+title: JSON & Markdown Toolbox 文档
+---
+
 # JSON & Markdown Toolbox 文档 / Documentation
 
 Chrome 扩展 JSON & Markdown Toolbox 的隐私政策与用户协议。本扩展在你用地址栏直接打开 JSON 或 Markdown 时，把这一页显示成可读页面。普通网站不会被接管。扩展免费，没有账号，也不含广告。

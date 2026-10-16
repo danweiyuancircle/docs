@@ -1,3 +1,7 @@
+---
+title: JSON & Markdown Toolbox User Agreement
+---
+
 # JSON & Markdown Toolbox User Agreement
 
 Updated: 2026-10-16.

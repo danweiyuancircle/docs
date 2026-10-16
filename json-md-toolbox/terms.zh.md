@@ -1,3 +1,7 @@
+---
+title: JSON & Markdown Toolbox 用户协议
+---
+
 # JSON & Markdown Toolbox 用户协议
 
 更新日期：2026-10-16。
