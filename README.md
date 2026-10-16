@@ -26,6 +26,19 @@
 
 [ADBox 文档目录](adbox/README.md)。阅读页由 GitHub Pages 发布。unitcircle 站点不再更新。
 
+## JSON & Markdown Toolbox
+
+JSON & Markdown Toolbox 是一款 Chrome 扩展。用地址栏直接打开 JSON 或 Markdown 时，它把这一页显示成可读页面。普通网站不会被接管。
+
+| 文档 / Document | 中文 | English |
+| --- | --- | --- |
+| 隐私政策 / Privacy Policy | [json-md-toolbox/privacy.zh.md](json-md-toolbox/privacy.zh.md) | [json-md-toolbox/privacy.en.md](json-md-toolbox/privacy.en.md) |
+| 用户协议 / User Agreement | [json-md-toolbox/terms.zh.md](json-md-toolbox/terms.zh.md) | [json-md-toolbox/terms.en.md](json-md-toolbox/terms.en.md) |
+
+[JSON & Markdown Toolbox 文档目录 / Documentation index](json-md-toolbox/README.md)。
+
+更新日期：2026 年 10 月 16 日。Chrome 网上应用店隐私政策使用中文阅读页 <https://danweiyuancircle.github.io/docs/json-md-toolbox/privacy.zh>。
+
 ## 反馈与支持
 
 通过 [GitHub Issue](https://github.com/danweiyuancircle/docs/issues) 反馈，并在标题中注明产品名。公开反馈不要上传未脱敏日志、个人文件、完整个人路径、密钥、支付凭证或账号信息。
