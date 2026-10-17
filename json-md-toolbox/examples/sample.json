@@ -1,0 +1,31 @@
+{
+  "project": "Paper Garden",
+  "description": "一个虚构的阅读清单示例",
+  "version": "1.0.0",
+  "settings": {
+    "theme": "light",
+    "language": "zh-CN",
+    "notifications": false
+  },
+  "books": [
+    {
+      "id": "book-001",
+      "title": "月光下的花园",
+      "tags": ["自然", "随笔"],
+      "rating": 4.8,
+      "finished": true
+    },
+    {
+      "id": "book-002",
+      "title": "写给未来的明信片",
+      "tags": ["旅行", "灵感"],
+      "rating": null,
+      "finished": false
+    }
+  ],
+  "summary": {
+    "total": 2,
+    "completed": 1,
+    "progress": 0.5
+  }
+}
