@@ -39,6 +39,18 @@ JSON & Markdown Toolbox 是一款 Chrome 扩展。用地址栏直接打开 JSON 
 
 更新日期：2026 年 10 月 16 日。Chrome 网上应用店隐私政策使用中文阅读页 <https://danweiyuancircle.github.io/docs/json-md-toolbox/privacy.zh>。
 
+## Quadorder
+
+Quadorder 是本机四象限任务应用，支持日期、重复任务、提醒、近 30 天完成历史与 JSON 备份。
+
+| 文档 / Document | 中文 | English |
+| --- | --- | --- |
+| 隐私政策 / Privacy Policy | [quadrant/privacy.zh.md](quadrant/privacy.zh.md) | [quadrant/privacy.en.md](quadrant/privacy.en.md) |
+| 用户使用协议 / User Agreement | [quadrant/terms.zh.md](quadrant/terms.zh.md) | [quadrant/terms.en.md](quadrant/terms.en.md) |
+| 支持 / Support | [quadrant/support.zh.md](quadrant/support.zh.md) | [quadrant/support.en.md](quadrant/support.en.md) |
+
+[Quadorder 文档目录](quadrant/README.md)。支持邮箱：<tianxiake1994@gmail.com>。
+
 ## 反馈与支持
 
 通过 [GitHub Issue](https://github.com/danweiyuancircle/docs/issues) 反馈，并在标题中注明产品名。公开反馈不要上传未脱敏日志、个人文件、完整个人路径、密钥、支付凭证或账号信息。
