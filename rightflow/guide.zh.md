@@ -1,6 +1,6 @@
 # 轻右键 / RightFlow 使用指南
 
-更新日期：2026 年 10 月 14 日。适用 macOS 14 及以上；界面和功能以你安装的版本为准。当前开发构建已接入 7zz 本地解压；本指南中的解压说明仅适用于已经提供该功能的版本，不代表 App Store 版本已经发布。
+更新日期：2026 年 10 月 21 日。适用 macOS 14 及以上；界面和功能以你安装的版本为准。当前开发构建已接入 7zz 本地解压；本指南中的解压说明仅适用于已经提供该功能的版本，不代表 App Store 版本已经发布。
 
 ## 1. 启用 Finder 扩展
 
@@ -64,13 +64,17 @@ Pro 用户可主动开启该组。选中文件后使用「剪切」记录待移�
 
 当前开发构建支持的常见格式包括 ZIP、7z、RAR、TAR、GZip、BZip2、XZ 及对应的 TAR 复合后缀。分卷、加密压缩包及其他特殊格式不在本文的可用性承诺内；具体限制以该版本界面和错误提示为准。
 
-该链路复用维护者自己的 [EasyArchiver（原 EasyZip）工程](https://github.com/danweiyuancircle/easy-zip) 中的 7zz 本地处理方案，不是来自同名竞品。引擎版本为 7-Zip 25.01，相关许可与源码见 [隐私政策的第三方开源组件附录](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.zh.md#附录第三方开源组件)。
+该链路复用维护者自己的 [EasyArchiver（原 EasyZip）工程](https://github.com/danweiyuancircle/easy-zip) 中的 7zz 本地处理方案，不是来自同名竞品。引擎版本为 7-Zip 25.01，相关许可与源码见 [隐私政策的第三方开源组件附录](https://danweiyuancircle.github.io/docs/rightflow/privacy.zh.html#附录第三方开源组件)。
 
 当前保护边界：源压缩包不超过 2 GiB、清单中的累计未压缩大小不超过 10 GiB、条目数不超过 100000。开发验证已包含真实压缩包测试、AES ZIP 定向测试和实际 Finder ZIP 操作，测试环境为 arm64 Mac；这些证据不代表全部格式、异常路径或其他硬件已经完成验收，也不代表 App Store 版本已经发布。
 
-## 5. 购买与恢复
+## 5. 免费体验、购买与恢复
 
-购买状态从 Apple StoreKit 读取。购买前查看实际结算价格和权益，按应用提供的入口恢复同一 Apple 账号的购买。购买或恢复需要 Apple 服务；文件操作本身在本机完成。
+提供本方案的版本从首次使用开始提供 Pro 免费体验，期限为两个自然月，以应用显示的到期时间为准，不是统一活动截止日，也不是固定 60 天。体验期无需先购买订阅，本身不会自动扣费；到期后保留免费基础功能，继续使用 Pro 需要你主动选择并确认购买。体验资格由本机记录判定，不承诺跨 Mac 共享免费期或卸载后重新获得免费期。
+
+体验期后，可按安装版本提供的商品选择一个月自动续订的 Pro 月订阅，或一次性购买 Pro 永久买断。具体价格、货币与可用性以 Apple 购买确认界面为准。月订阅由你确认后才开始收费；确认后会自动续订，需至少在周期结束前 24 小时通过 [Apple 订阅管理](https://apps.apple.com/account/subscriptions) 取消，以免下一周期续费。卸载应用或购买永久买断不会自动取消已有订阅；从订阅转为买断时需要自行取消订阅。
+
+购买权益通过 Apple StoreKit 验证。按应用提供的入口恢复同一 Apple 账号的购买，购买记录与恢复由 Apple 管理。购买或恢复需要 Apple 服务；文件操作本身在本机完成。退款可通过 [Apple 申请退款](https://reportaproblem.apple.com/) 处理。详细规则见 [用户使用协议](https://danweiyuancircle.github.io/docs/rightflow/terms.zh.html)。
 
 本仓库发布文档不代表应用已上架或版本已发布。若已购买而仍显示未解锁，先核对安装版本与 Apple 账号，再通过支持入口反馈。
 
@@ -85,6 +89,6 @@ Pro 用户可主动开启该组。选中文件后使用「剪切」记录待移�
 | 文件操作失败 | 检查源文件、目标目录、空间和权限；先确认文件现状，再决定是否重试 |
 | 需要排查日志 | 本机日志可能包含个人路径；先脱敏，再主动提交需要的片段 |
 
-支持入口：[GitHub Issue](https://github.com/danweiyuancircle/docs/issues)。提供版本、复现步骤和已脱敏截图即可，不要公开个人文件、密钥或支付资料。
+联系作者：[unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com)；也可通过 [GitHub Issue](https://github.com/danweiyuancircle/docs/issues) 反馈。提供版本、复现步骤和已脱敏截图即可，不要公开个人文件、密钥或支付资料。
 
-相关文档：[隐私政策](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.zh.md)、[用户使用协议](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.zh.md)。
+相关文档：[隐私政策](https://danweiyuancircle.github.io/docs/rightflow/privacy.zh.html)、[用户使用协议](https://danweiyuancircle.github.io/docs/rightflow/terms.zh.html)。

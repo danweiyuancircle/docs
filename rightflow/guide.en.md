@@ -1,6 +1,6 @@
 # RightFlow User Guide
 
-Last updated: October 14, 2026. Requires macOS 14 or later; the interface and features depend on your installed version. The current development build includes 7zz local archive extraction. The extraction instructions below apply only to versions that provide the feature and do not indicate that an App Store version has been released.
+Last updated: October 21, 2026. Requires macOS 14 or later; the interface and features depend on your installed version. The current development build includes 7zz local archive extraction. The extraction instructions below apply only to versions that provide the feature and do not indicate that an App Store version has been released.
 
 ## 1. Enable the Finder extension
 
@@ -64,13 +64,17 @@ The current development build includes extraction. You can use the action only i
 
 Common formats supported by the current development build include ZIP, 7z, RAR, TAR, GZip, BZip2, XZ, and their TAR compound extensions. This guide does not promise availability for split archives, encrypted archives, or other special formats. Refer to the version's interface and error messages for specific limitations.
 
-This flow reuses the local 7zz processing approach from the maintainer's own [EasyArchiver project, formerly EasyZip](https://github.com/danweiyuancircle/easy-zip), rather than a similarly named competing product. The engine is 7-Zip 25.01. For licenses and source, see the [third-party open-source component appendix in the Privacy Policy](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.en.md#appendix-third-party-open-source-components).
+This flow reuses the local 7zz processing approach from the maintainer's own [EasyArchiver project, formerly EasyZip](https://github.com/danweiyuancircle/easy-zip), rather than a similarly named competing product. The engine is 7-Zip 25.01. For licenses and source, see the [third-party open-source component appendix in the Privacy Policy](https://danweiyuancircle.github.io/docs/rightflow/privacy.en.html#appendix-third-party-open-source-components).
 
 Current protection limits: a source archive of at most 2 GiB, a cumulative uncompressed size of at most 10 GiB in the listing, and at most 100000 entries. Development validation has included tests with real archives, a targeted AES ZIP test, and an actual Finder ZIP operation on an arm64 Mac. This evidence does not mean that all formats, error cases, or other hardware have completed acceptance testing, or that an App Store version has been released.
 
-## 5. Purchases and restoring purchases
+## 5. Free trial, purchases, and restoration
 
-Purchase status is read through Apple StoreKit. Review the actual checkout price and entitlements before purchasing, and use the app's restore option for purchases made with the same Apple account. Purchases and restoration require Apple services; file operations themselves run locally.
+Versions offering this plan provide a Pro trial for two calendar months from first use, with the end date shown in the app. It is not a shared promotional deadline or a fixed 60-day period. No subscription purchase is required to begin this trial, and the trial itself does not trigger automatic charges. Free basic features remain available after it ends; continued Pro access requires you to choose and confirm a purchase. Trial eligibility uses local records; sharing a trial across Macs or receiving a new trial after reinstalling is not promised.
+
+After the trial, choose the one-month auto-renewing Pro Monthly subscription or the one-time Pro Lifetime purchase offered by your installed version. Actual price, currency, and availability are shown in Apple's purchase confirmation. Monthly charges begin only after you confirm a purchase; the subscription then renews automatically. Cancel through [Apple subscription management](https://apps.apple.com/account/subscriptions) at least 24 hours before the period ends to avoid the next renewal. Uninstalling the app or buying Lifetime does not cancel an existing subscription. If you switch to Lifetime, cancel the subscription yourself.
+
+Purchase entitlements are verified through Apple StoreKit. Use the app's restore option for purchases made with the same Apple account; Apple manages purchase records and restoration. Purchases and restoration require Apple services; file operations themselves run locally. For refunds, use [Apple's refund request service](https://reportaproblem.apple.com/). See the [User Agreement](https://danweiyuancircle.github.io/docs/rightflow/terms.en.html) for details.
 
 Publishing documentation in this repository does not mean that the app is listed on the App Store or that a version has been released. If you have purchased but still see a locked status, check the installed version and Apple account, then contact support.
 
@@ -85,6 +89,6 @@ Publishing documentation in this repository does not mean that the app is listed
 | A file operation fails | Check the source, destination, free space, and permissions; confirm the current state of the files before deciding whether to retry |
 | Diagnostic logs are needed | Local logs may contain personal paths; redact them first, then voluntarily provide only the relevant excerpts |
 
-Support: [GitHub issues](https://github.com/danweiyuancircle/docs/issues). Provide the version, steps to reproduce, and redacted screenshots. Do not publish personal files, keys, or payment information.
+Contact the author: [unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com), or use [GitHub issues](https://github.com/danweiyuancircle/docs/issues). Provide the version, steps to reproduce, and redacted screenshots. Do not publish personal files, keys, or payment information.
 
-Related documents: [Privacy Policy](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.en.md) and [User Agreement](https://github.com/danweiyuancircle/docs/blob/main/rightflow/terms.en.md).
+Related documents: [Privacy Policy](https://danweiyuancircle.github.io/docs/rightflow/privacy.en.html) and [User Agreement](https://danweiyuancircle.github.io/docs/rightflow/terms.en.html).

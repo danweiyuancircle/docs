@@ -1,6 +1,6 @@
 # RightFlow Privacy Policy
 
-Last updated: October 14, 2026.
+Last updated: October 21, 2026.
 
 This policy explains how RightFlow handles data. RightFlow is a local macOS Finder context-menu tool provided by the maintainer of this repository. It does not require registration for a developer-operated account, provide a developer-operated file server, or use in-app advertising, third-party behavioral analytics, or automatic telemetry services. The app has file read and write permissions; “local processing” does not mean that it never reads files or requires authorization.
 
@@ -15,7 +15,8 @@ This policy explains how RightFlow handles data. RightFlow is a local macOS Find
 | Clipboard contents | Paths, names, or PNG images are written according to the action you select; other apps with appropriate access may read the system clipboard |
 | File and image contents | Corresponding files are read or written as needed for actions such as creating files, moving items, or copying PNG images; the app does not automatically scan the entire disk |
 | Local diagnostic logs | Used to investigate failed operations; may include actions, times, file names or paths, and error information; not automatically uploaded to the developer |
-| Purchase entitlement status | The app reads purchase results through Apple StoreKit and stores its unlock status locally |
+| Free-trial records | The first-use date and most recently observed time are stored in the local Keychain to determine the two-month trial; trial and entitlement status are shared locally with the Finder extension through the App Group, without upload to a developer server |
+| Purchase entitlement status | The app verifies lifetime-purchase or subscription transactions through Apple StoreKit, reads entitlement details such as expiry or revocation, and stores entitlement status locally for the main app and Finder extension |
 
 The current development build includes Pro local archive extraction. It uses the local 7zz engine to read the archive you select and write the results to the destination folder, without uploading the archive to a developer server. Development-build validation is not an App Store release; supported formats and interactions depend on the installed version.
 
@@ -35,13 +36,15 @@ A declared network permission does not itself mean that data is being uploaded. 
 
 ## 3. Support information you choose to provide
 
+When you contact [unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com), the maintainer reads your sender address and the problem description, attachments, or diagnostic excerpts you voluntarily provide to handle your support request. Relevant email providers transmit and retain messages under their privacy policies. The app does not automatically send support emails or attachments.
+
 When you submit feedback through a [GitHub issue](https://github.com/danweiyuancircle/docs/issues), the maintainer reads the version information, problem description, screenshots, or logs you voluntarily provide to investigate and respond. Public issues and attachments are publicly visible and may be indexed by search engines.
 
 Do not post personal file contents, account information, keys, payment receipts, or complete personal paths. Review diagnostic logs and redact sensitive information before sending them. RightFlow does not automatically upload other data if you choose not to upload logs.
 
 ## 4. Retention, deletion, and control
 
-Local settings and authorization records are retained as needed for subsequent use. The cut buffer is cleared after a successful paste. Local diagnostic logs are managed through log rotation; no fixed retention period is promised.
+Local settings and authorization records are retained as needed for subsequent use. The first-use date and most recently observed time are retained in the local Keychain for trial eligibility and may remain after uninstalling the app. These records do not uniquely identify a person across Macs and are not a server-maintained reinstall-prevention record. The cut buffer is cleared after a successful paste. Local diagnostic logs are managed through log rotation; no fixed retention period is promised.
 
 You can disable corresponding menu actions, remove saved locations, stop using the app, and manage system-granted permissions in macOS System Settings. Quitting or uninstalling the app does not necessarily clear App Group settings and logs, and does not automatically delete files you have created, moved, or extracted. If you need help clearing local app data, ask through the support channel without publishing specific personal paths.
 
@@ -51,7 +54,7 @@ GitHub retains data in public feedback. You can use GitHub's editing, deletion, 
 
 We will update this policy and its update date when features or data handling change materially. Actions requiring additional authorization follow the system authorization process. This policy does not reduce your privacy rights under applicable law.
 
-Support: [RightFlow documentation repository issues](https://github.com/danweiyuancircle/docs/issues). This repository does not provide a private contact channel; do not include a personal phone number or address in public feedback.
+Contact the author: [unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com). You can also use [RightFlow documentation repository issues](https://github.com/danweiyuancircle/docs/issues). Do not include a personal phone number or address in public feedback.
 
 ## Appendix: Third-party open-source components
 

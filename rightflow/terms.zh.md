@@ -1,8 +1,8 @@
 # 轻右键 / RightFlow 用户使用协议
 
-更新日期：2026 年 10 月 14 日。
+更新日期：2026 年 10 月 21 日。
 
-本协议适用于轻右键应用及其使用文档，由本仓库维护者提供。使用应用前，可同时阅读 [隐私政策](https://github.com/danweiyuancircle/docs/blob/main/rightflow/privacy.zh.md) 与 [使用指南](https://github.com/danweiyuancircle/docs/blob/main/rightflow/guide.zh.md)。本协议不替代 Apple 的购买条款，也不减少适用法律规定的消费者权利。
+本协议适用于轻右键应用及其使用文档，由本仓库维护者提供。使用应用前，可同时阅读 [隐私政策](https://danweiyuancircle.github.io/docs/rightflow/privacy.zh.html) 与 [使用指南](https://danweiyuancircle.github.io/docs/rightflow/guide.zh.html)。本协议不替代 Apple 的购买条款，也不减少适用法律规定的消费者权利。
 
 ## 1. 应用能力与版本
 
@@ -12,11 +12,16 @@
 
 文档中的计划、原型或正在接入的能力不表示已经发布，不构成无限格式支持、全磁盘访问或所有未来功能永久免费提供的承诺。
 
-## 2. 购买与恢复
+## 2. 免费体验、购买与恢复
 
-Pro 购买通过 Apple StoreKit 完成。购买类型、价格、税费和具体权益以购买确认界面及 App Store 显示为准，不以本仓库文字替代结算信息。
+提供本方案的版本从首次使用开始提供 Pro 免费体验，期限为两个自然月，以应用显示的到期时间为准，不是统一活动截止日，也不是固定 60 天。体验期无需先购买订阅，本身不会自动扣费；到期后保留免费基础功能，继续使用 Pro 需要你主动选择并确认购买。体验资格由本机记录判定，不承诺跨 Mac 共享免费期或卸载后重新获得免费期。
 
-恢复购买需要使用对应的 Apple 账号，并可能需要联网与 Apple 服务正常运行。退款、账单和支付争议可通过 Apple 提供的渠道处理，例如 [申请退款](https://reportaproblem.apple.com/)。涉及应用权益识别错误，可通过本仓库支持入口反馈；不要公开购买凭证或账号资料。
+提供本方案的版本可选择「Pro 月订阅」或「Pro 永久买断」，均通过 Apple StoreKit 完成。商品是否可购、当地货币、价格、税费和具体权益以安装版本及 Apple 购买确认界面为准；本页不替代结算信息，也不表示新商品已在所有地区上线。
+
+- **Pro 月订阅**：订阅周期为一个月，确认购买后由 Apple 向你的 Apple 账号付款方式收费。除非你关闭自动续订，订阅会自动续订；Apple 可在当前周期结束前 24 小时内收取续期费用。可通过 [Apple 订阅管理](https://apps.apple.com/account/subscriptions) 或 Mac App Store 的账号设置管理和取消，操作说明见 [Apple 取消订阅指引](https://support.apple.com/zh-cn/118428)。为避免下一周期续费，应至少提前 24 小时取消。取消后，已付费周期的有效权益通常持续至到期，具体以 Apple 返回的状态为准。卸载应用不会自动取消订阅。
+- **Pro 永久买断**：一次性购买，无需为该买断重复续费。购买后，在该权益有效且未退款或撤销期间使用本版本说明的 Pro 功能。买断不会自动取消你已有的月订阅；如从订阅转为买断，需要自行在 Apple 订阅管理中取消订阅，避免后续续费。
+
+恢复购买需要使用对应的 Apple 账号，并可能需要联网与 Apple 服务正常运行；购买记录与恢复由 Apple 管理。退款、账单和支付争议可通过 Apple 提供的渠道处理，例如 [申请退款](https://reportaproblem.apple.com/)，是否退款由 Apple 按适用规则处理，不承诺全部申请都会获批。交易到期、退款或被撤销后，Pro 权益依有效交易状态重新判定。涉及应用权益识别错误，可通过 [unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com) 反馈；不要公开购买凭证或账号资料。
 
 ## 3. 文件操作与使用责任
 
@@ -38,6 +43,6 @@ Apple 负责购买服务；你指定的终端、编辑器负责其自身打开�
 
 我们会根据功能变化更新文档。影响数据处理或购买权益的重要变化应在适当位置说明；新条款不会自动取消已经取得的法定权利。
 
-支持入口：[GitHub Issue](https://github.com/danweiyuancircle/docs/issues)。反馈可包括应用版本、macOS 版本、操作步骤与已脱敏截图；不要公开个人文件、密钥、完整个人路径或付款凭证。
+联系作者：[unitcircle@agent.qq.com](mailto:unitcircle@agent.qq.com)；也可通过 [GitHub Issue](https://github.com/danweiyuancircle/docs/issues) 反馈。反馈可包括应用版本、macOS 版本、操作步骤与已脱敏截图；不要公开个人文件、密钥、完整个人路径或付款凭证。
 
 如发生争议，可先通过支持入口沟通；依法享有的投诉、退款、救济及争议解决途径不受本协议限制。
