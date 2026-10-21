@@ -4,7 +4,7 @@ title: JSON & Markdown Toolbox Privacy Policy
 
 # JSON & Markdown Toolbox Privacy Policy
 
-Last updated: 2026-10-16
+Last updated: 2026-10-21
 
 中文版本：[隐私政策](privacy.zh.md). User agreement: [User Agreement](terms.en.md).
 
@@ -14,19 +14,23 @@ JSON & Markdown Toolbox (the "extension") shows a readable page when you open JS
 
 The extension reads only the body of **the document in the current tab**, to decide whether it is JSON or Markdown and to display it. It does not read later requests made by that page, browsing history, bookmarks, cookies, or passwords.
 
+The pro editor processes only documents you paste, select or drop, or the source you explicitly import by clicking "Open pro editor" in the reader. Source text travels through local extension messages to the new tab for editing, formatting, comparison and preview. It is not sent to the author or another server.
+
 ## What we store
 
 You can turn the viewer off for a domain. The list of disabled domains is kept in the browser's sync storage.
 
 If Chrome Sync is on, that list syncs between your own devices with your Google account. The browser performs the sync. The extension author does not receive the list and cannot see which pages you opened.
 
-Appearance and the default JSON view are stored in the browser's local storage. They are not synced through Chrome Sync.
+Reading preferences, including appearance, font size, wrapping, density and the default JSON view, are stored in the browser's local storage. They are not synced through Chrome Sync.
 
 The extension does not save page bodies, does not upload page content to the author, and does not use analytics or advertising services.
 
+Editor documents remain in tab memory and are not written to local, sync or session storage. Refreshing or closing the editor discards its contents. Copying and downloading happen only when you explicitly choose those actions.
+
 ## Images and links in a document
 
-JSON image previews and Markdown images are not loaded by default. The browser requests an image address from the document only after you choose image preview or "Load images". The image host may receive your IP address and information contained in the image URL. The request does not send the current page's Referer. The extension author does not receive these requests. External links in the document open only when you click them.
+JSON image previews and Markdown images are not loaded by default. A JSON image is requested after an explicit action such as hovering over its address, focusing it with the keyboard or clicking preview. Markdown images still require clicking "Load images". The image host may receive your IP address and information contained in the image URL. The request does not send the current page's Referer. The extension author does not receive these requests. External links in the document open only when you click them.
 
 ## What we do not do
 
